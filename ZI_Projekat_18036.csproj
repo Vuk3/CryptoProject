@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Forme\A52_Forma - Copy.Designer.cs">
+      <DependentUpon>A52_Forma.Designer.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Forme\A52_Forma - Copy.resx">
+      <DependentUpon>A52_Forma.resx</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+"-Objasnjenje projekta, kako se pokrece, kako radi...\n" +
+"-Za svaki od algoritama postoji posebna forma. Klikom na dugme na pocetnoj formi se otvara forma za odgovarajuci algoritam\n" +
+"-Podrzani su upis i citanje iz svih vrsta fajlova (txt, bin, bmp)\n\n" +
+"-Algoritam RailFence:\n" +
+"  Moguce je rucno uneti tekst u polje 'Tekst', ili ucitati tekst iz fajla\n" +
+"  Kljuc se moze uneti rucno, a moze se ucitati iz fajla. Kljuc je broj redova\n" +
+"  Podesiti offset\n" +
+"  Podesiti izlazni folder (gde ce se cuvati fajl kad se kriptuje/dekriptuje)\n" +
+"  Kada se tekst kriptuje, u polju 'Tekst' ce se prikazati kriptovani tekst. Isto vazi i za dekriptovanje.\n" +
+"  Moguce je iskoristiti MD5 hash za proveru da li je polazni fajl isti kao onaj koji je kriptovan pa dekriptovan.\n" +
+"  Po ucitavanju fajla, u text boxu 'Pocetni fajl' se pojavljuje MD5 vrednost fajla\n" +
+"  Kada se izvrsi kriptovanje pa dekriptovanje, u text boxu 'Krajnji fajl' se pojavljuje MD5 vrednost fajla\n" +
+"  Klikom na dugme proveri MD5 se uporedjuju te dve vrednosti, ako su jednake, znaci da su fajlovi identicni\n" +
+"  Kriptovan fajl se cuva pod imenom RF-encrypted, tamo gde je odabran izlazni folder\n" +
+"  Dekriptovan fajl se cuva pod imenom RF-decrypted\n\n" +
+"-Algoritam XTEA:\n" +
+"  Moguce je rucno uneti tekst u polje 'Tekst', ili ucitati tekst iz fajla\n" +
+"  Kljuc se moze uneti rucno, a moze se ucitati iz fajla. Kljuc mora imati 16 karaktera\n" +
+"  Podesiti izlazni folder (gde ce se cuvati fajl kad se kriptuje/dekriptuje)\n" +
+"  Za XTEA algoritam je implementiran PCBC, koji se moze aktivirati stikliranjem checkbox-a\n" +
+"  Moguce je izabrati broj rundi (32 ili 64) preko radio button-a\n" +
+"  Kada se fajl kriptuje, njegon naziv je naziv ulaznog fajla + 'Enc'\n" +
+"  Kada se fajl deriptuje, njegon naziv je naziv ulaznog fajla + 'Dec'\n" +
+"  Moguce je iskoristiti MD5 hash za proveru da li je polazni fajl isti kao onaj koji je kriptovan pa dekriptovan.\n" +
+"  Po ucitavanju fajla, u text boxu 'Pocetni fajl' se pojavljuje MD5 vrednost fajla\n" +
+"  Kada se izvrsi kriptovanje pa dekriptovanje, u text boxu 'Krajnji fajl' se pojavljuje MD5 vrednost fajla\n" +
+"  Klikom na dugme proveri MD5 se uporedjuju te dve vrednosti, ako su jednake, znaci da su fajlovi identicni\n";
